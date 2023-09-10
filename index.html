@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Porfolio</h1>
+    </header>
+    <main>
+        <div class="mainContainer">
+            <div class="container userNameContainer">
+                <p>Slack Username:- </p>
+                <p data-testid="slackUserName">Anu Olajide</p>
+            </div>
+            <div class="container slackProfilePictureContainer">
+                <p>Profile Picture:- </p>
+                <img src="profilePic.png" alt="Anu Olajide" data-testid="slackProfilePicture">
+            </div>
+            <div class="container dayOfTheWeekContainer">
+                <p>Day Of The Week:- </p>
+                <p data-testid="currentDayOfTheWeek">Sunday</p>
+            </div>
+            <div class="container utcTimeContainer">
+                <p>UTC Time:- </p>
+                <p data-testid="currentUTCTime">currentUTCTime</p>
+            </div>
+            <div class="container trackContainer">
+                <p>Track:- </p>
+                <p data-testid="myTrack">FrontEnd Development</p>
+            </div>
+            <div class="container githubURLContainer">
+                <p>Github URL:- </p>
+                <a href="https://github.com/pasta022?tab=repositories" data-testid="githubURL">github repository</a>
+            </div>
+        </div>
+    </main>
+
+    <!--javascript Tag-->
+    <script src="script.js"></script>
+</body>
+</html>

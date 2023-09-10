@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: rgb(51, 51, 51);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin: 10px 0;
+}
+
+.slackProfilePictureContainer img{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+.githubURLContainer a{
+    color: lightblue;
+}
